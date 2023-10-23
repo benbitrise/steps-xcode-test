@@ -80,7 +80,7 @@ func CreateXcodebuildCmd(xcodebuildArgs ...string) *exec.Cmd {
 
 // CreateXcprettyCmd ...
 func CreateXcprettyCmd(xcprettydArgs ...string) *exec.Cmd {
-	return exec.Command("xcpretty", xcprettydArgs...)
+	return exec.Command("xcbeautify", xcprettydArgs...)
 }
 
 // Zip ...
